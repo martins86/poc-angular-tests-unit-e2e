@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "test-stage": "ng test --progress false --single-run=true --watch=false",
+    "e2e-stage": "ng e2e --progress false --watch=false"
   },
   "private": true,
   "dependencies": {
@@ -27,10 +29,11 @@
     "@angular-devkit/build-angular": "~0.1001.1",
     "@angular/cli": "~10.1.1",
     "@angular/compiler-cli": "~10.1.1",
-    "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
+    "husky": "^5.0.6",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~5.0.0",
@@ -39,6 +42,7 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "protractor": "~7.0.0",
+    "standard": "^16.0.3",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
