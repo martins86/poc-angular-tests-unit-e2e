@@ -1,27 +1,53 @@
-# PocAngularTestsUnitE2e
+# Poc Angular - Tests: ng test, ng e2e - [![Build Status][travis-img]][travis-url]
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
+<br>
 
-## Development server
+![GitHub package.json version][version-img]
+![GitHub top language][language-img]
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![GitHub license][license-img]][license-url]
+![GitHub last commit][commit-img]
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<br>
 
-## Code scaffolding
+> Aplicação em Angular com testes unitários e e2e.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<br>
 
-## Build
+# Comandos NPM
+```
+▶ npm i standard -D        /// Padrão de código.
+▶ npm i husky@next -D      /// Exec scripts antes do commit.
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+<br>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Versions
 
-## Running end-to-end tests
+<br>
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+![npm][npm-img] ![node-current](https://img.shields.io/node/v/latest-version)
 
-## Further help
+<br>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Dev Dependencies
+
+| Package | NPMJS | Shields |
+| ------ | ------ | ------ |
+| Husky | https://www.npmjs.com/package/husky | ![GitHub package.json dependency version (dev dep on branch)][husky-img] |
+| JavaScript Standard Style | https://www.npmjs.com/package/standard | ![GitHub package.json dependency version (dev dep on branch)][standard-img] |
+
+<!-- Markdown link & images -->
+
+[version-img]: https://img.shields.io/github/package-json/v/martins86/poc-angular-tests-unit-e2e
+[language-img]: https://img.shields.io/github/languages/top/martins86/poc-angular-tests-unit-e2e
+[license-img]: https://img.shields.io/github/license/martins86/poc-angular-tests-unit-e2e
+[license-url]: https://github.com/martins86/poc-angular-tests-unit-e2e/blob/main/LICENSE
+[travis-img]: https://travis-ci.com/martins86/poc-angular-tests-unit-e2e.svg?branch=main
+[travis-url]: https://travis-ci.com/martins86/poc-angular-tests-unit-e2e
+[commit-img]: https://img.shields.io/github/last-commit/martins86/poc-angular-tests-unit-e2e
+[npm-img]: https://img.shields.io/npm/v/npm
+
+[husky-img]: https://img.shields.io/github/package-json/dependency-version/martins86/poc-angular-tests-unit-e2e/dev/husky
+[standard-img]: https://img.shields.io/github/package-json/dependency-version/martins86/poc-angular-tests-unit-e2e/dev/standard
