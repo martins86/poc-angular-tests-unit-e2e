@@ -11,6 +11,11 @@
     "test-stage": "ng test --progress false --single-run=true --watch=false",
     "e2e-stage": "ng e2e --progress false --watch=false"
   },
+  "standard": {
+    "env": [
+      "test"
+    ]
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.1.1",
