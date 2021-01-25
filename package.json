@@ -6,12 +6,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "test": "ng test --no-watch --no-progress --code-coverage --browsers ChromeHeadless",
     "test-dev": "ng test --code-coverage --progress",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "test-stage": "ng test --no-watch --no-progress --code-coverage --browsers ChromeHeadless",
-    "pre-commit": "npm run lint && npm run test-stage && npm run e2e"
+    "pre-commit": "npm run lint && npm run test && npm run e2e"
   },
   "standard": {
     "env": [
