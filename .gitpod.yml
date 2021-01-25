@@ -11,7 +11,21 @@ tasks:
   - before: export NG_CLI_ANALYTICS=ci
     init: npm install
   - command: >
+      npm i karma-spec-reporter &&
+      npm i chromium --save &&
+      npm i chromedriver &&
+      npm i selenium-webdriver --save &&
+      npm i bootstrap --save &&
+      npm i standard --save &&
+      npm i husky@next --save &&
+      npm i jshint -global &&
+      npm i tslint -global &&
+  - command: >
+      echo n | npm i -g @angular/cli@10.1.7 &&
+      echo n | npm i @angular/cli@10.1.7 &&
+      sleep 6 &&
       ng serve --host 0.0.0.0 --disableHostCheck
+
 github:
   prebuilds:
     master: true
