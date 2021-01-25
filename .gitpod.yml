@@ -15,9 +15,9 @@ tasks:
       npm i chromium --save &&
       npm i chromedriver &&
       npm i selenium-webdriver --save &&
-      npm i bootstrap --save &&
-      npm i standard --save &&
-      npm i husky@next --save &&
+      npm i bootstrap -global &&
+      npm i standard -global &&
+      npm i husky@next -global &&
       npm i jshint -global &&
       npm i tslint -global &&
   - command: >
