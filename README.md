@@ -4,9 +4,6 @@
 
 [![Open in Gitpod][open-gitpod-img]][open-gitpod-url]
 
-[![made-with-gitpod][made-gitpod-img]][made-gitpod-url]
-[![GitHub stars][git-starts-img]][git-starts-url]
-
 <br>
 
 ![GitHub package.json version][version-img]
@@ -88,10 +85,6 @@ Execute o comando `ng e2e` rodando com [Protractor](http://www.protractortest.or
 
 <!-- Markdown link & images -->
 
-[made-gitpod-img]: https://img.shields.io/badge/Made%20with-Gitpod-1f425f.svg
-[made-gitpod-url]: https://gitpod.io/
-[git-starts-img]: https://img.shields.io/github/stars/martins86/poc-angular-tests-unit-e2e?style=social&label=Star
-[git-starts-url]: https://github.com/martins86/poc-angular-tests-unit-e2e/
 [open-gitpod-img]: https://gitpod.io/button/open-in-gitpod.svg
 [open-gitpod-url]: https://www.gitpod.io/#https://github.com/martins86/poc-angular-tests-unit-e2e
 
