@@ -6,10 +6,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "test": "ng test --code-coverage",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "test:staged": "ng test --progress && ng e2e --progress"
+    "test:pre-commit": "ng lint && ng test --code-coverage --progress --browsers ChromeHeadless && ng e2e --progress"
   },
   "standard": {
     "env": [
