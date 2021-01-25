@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test --code-coverage",
+    "test": "ng test --watch --code-coverage",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "test:pre-commit": "ng lint && ng test --code-coverage --progress --browsers ChromeHeadless && ng e2e --progress"
