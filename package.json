@@ -28,17 +28,19 @@
   "bugs": {
     "url": "https://github.com/martins86/poc-angular-tests-unit-e2e/issues"
   },
-  "engines" : {
-    "node" : "^12.18.3"
+  "engines": {
+    "node": "^12.18.3"
   },
   "homepage": "https://github.com/martins86/poc-angular-tests-unit-e2e#readme",
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.1.1",
+    "@angular/cdk": "^10.2.7",
     "@angular/common": "~10.1.1",
     "@angular/compiler": "~10.1.1",
     "@angular/core": "~10.1.1",
     "@angular/forms": "~10.1.1",
+    "@angular/material": "^10.2.7",
     "@angular/platform-browser": "~10.1.1",
     "@angular/platform-browser-dynamic": "~10.1.1",
     "@angular/router": "~10.1.1",

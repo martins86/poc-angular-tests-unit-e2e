@@ -23,6 +23,10 @@
 
 # Comandos NPM
 ```
+▶ ng add @angular/material   /// Package angular material.
+```
+
+```
 install: npm install standard husky@next --save-dev
 
 ▶ npm i standard -D        /// Define e aplica o padrão de código.
