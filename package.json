@@ -6,10 +6,12 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test --watch --code-coverage",
+    "test": "ng test",
+    "test-dev": "ng test --code-coverage --progress",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "test:pre-commit": "ng lint && ng test --code-coverage --progress --browsers ChromeHeadless && ng e2e --progress"
+    "test-stage": "ng test --no-watch --no-progress --code-coverage --browsers ChromeHeadless",
+    "test:pre-commit": "npm run lint && npm run test-stage && npm run e2e"
   },
   "standard": {
     "env": [
@@ -26,8 +28,8 @@
   "bugs": {
     "url": "https://github.com/martins86/poc-angular-tests-unit-e2e/issues"
   },
-  "engines" : { 
-    "node" : "^12.18.3" 
+  "engines" : {
+    "node" : "^12.18.3"
   },
   "homepage": "https://github.com/martins86/poc-angular-tests-unit-e2e#readme",
   "private": true,
