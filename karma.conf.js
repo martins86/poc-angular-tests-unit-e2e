@@ -18,7 +18,22 @@ module.exports = function (config) {
     coverageIstanbulReporter: {
       dir: require('path').join(__dirname, './coverage/poc-angular-tests-unit-e2e'),
       reports: ['html', 'lcovonly', 'text-summary'],
-      fixWebpackSourcePaths: true
+      fixWebpackSourcePaths: true,
+      thresholds: {
+        emitWarning: false,
+        global: {
+          statements: 80,
+          lines: 80,
+          branches: 80,
+          functions: 80
+        },
+        each: {
+          statements: 80,
+          lines: 80,
+          branches: 80,
+          functions: 80
+        }
+      }
     },
     reporters: ['progress', 'kjhtml'],
     port: 9876,
