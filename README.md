@@ -35,7 +35,9 @@ JavaScript Standard Style - Code Quality :<br>
 `npm install standard --save-dev`
 
 Husky - CI/CD :<br>
-`npm install husky@next --save-dev`
+Pacote: `npm install husky@next --save-dev` <br>
+Git Hooks: `husky install` <br>
+Pre Commit: `husky add .husky/pre-commit "npm run pre-commit"` <br>
 
 <br>
 
