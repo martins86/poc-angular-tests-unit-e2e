@@ -9,11 +9,11 @@ export class HomeComponent {
   title = 'Casos de Teste';
   points = 1;
 
-  plus1() {
+  plus1(): any  {
     this.points++;
   }
 
-  reset() {
+  reset(): any {
     this.points = 0;
   }
 }

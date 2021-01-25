@@ -9,7 +9,7 @@ describe('workspace-project App', () => {
   });
 
   it('should display Title "Casos de Teste"', () => {
-    const title = 'Casos de Teste'
+    const title = 'Casos de Teste';
     page.navigateTo();
     expect(page.getTitleText()).toEqual(title);
   });

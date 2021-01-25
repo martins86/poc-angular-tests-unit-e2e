@@ -5,19 +5,19 @@ export class HomePage {
     return browser.get(browser.baseUrl) as Promise<unknown>;
   }
 
-  getTitleText() {
+  getTitleText(): any {
     return element(by.css('h1')).getText();
   }
 
-  getPoints() {
+  getPoints(): any {
     return element(by.cssContainingText('div', 'Pontos')).$('span').getText();
   }
 
-  getPlus1Button() {
+  getPlus1Button(): any {
     return element(by.cssContainingText('button', '+ 1'));
   }
 
-  getResetButton() {
+  getResetButton(): any {
     return element(by.cssContainingText('button', 'Reset'));
   }
 }

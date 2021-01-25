@@ -11,7 +11,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "test-stage": "ng test --no-watch --no-progress --code-coverage --browsers ChromeHeadless",
-    "test:pre-commit": "npm run lint && npm run test-stage && npm run e2e"
+    "pre-commit": "npm run lint && npm run test-stage && npm run e2e"
   },
   "standard": {
     "env": [
@@ -44,6 +44,7 @@
     "@angular/platform-browser": "~10.1.1",
     "@angular/platform-browser-dynamic": "~10.1.1",
     "@angular/router": "~10.1.1",
+    "bootstrap": "^4.6.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
