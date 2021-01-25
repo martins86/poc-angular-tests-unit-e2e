@@ -22,16 +22,22 @@
 <br>
 
 # Comandos NPM
-```
-▶ ng add @angular/material   /// Package angular material.
-```
 
-```
-install: npm install standard husky@next --save-dev
+# Install Packages
+All Packages in package.json :<br>
+`npm install`
 
-▶ npm i standard -D        /// Define e aplica o padrão de código.
-▶ npm i husky@next -D      /// Executa scripts antes do commit.
-```
+Angular Material / CDK - [Angular Material](https://material.angular.io/) :<br>
+`npm install @angular/material @angular/cdk --save`
+
+Bootstrap - [Get Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) :<br>
+`npm install bootstrap --save`
+
+JavaScript Standard Style - Code Quality :<br>
+`npm install standard --save-dev`
+
+Husky - CI/CD :<br>
+`npm install husky@next --save-dev`
 
 
 <br>
@@ -69,7 +75,7 @@ install: npm install standard husky@next --save-dev
 [js-style-guide-url]: https://standardjs.com
 [license-img]: https://img.shields.io/github/license/martins86/poc-angular-tests-unit-e2e
 [license-url]: https://github.com/martins86/poc-angular-tests-unit-e2e/blob/main/LICENSE
-[travis-img]: https://travis-ci.com/martins86/poc-angular-tests-unit-e2e.svg?branch=main
+[travis-img]: https://travis-ci.com/martins86/poc-angular-tests-unit-e2e.svg?branch=master
 [travis-url]: https://travis-ci.com/martins86/poc-angular-tests-unit-e2e
 [commit-img]: https://img.shields.io/github/last-commit/martins86/poc-angular-tests-unit-e2e
 [npm-img]: https://img.shields.io/npm/v/npm
