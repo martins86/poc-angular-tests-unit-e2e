@@ -11,16 +11,7 @@ tasks:
   - before: export NG_CLI_ANALYTICS=ci
     init: npm install
   - command: >
-      npm i karma-spec-reporter &&
-      npm i chromium chromedriver selenium-webdriver --save
-  - command: >
-      npm i -g jshint &&
-      npm i -g tslint &&
-      echo n | npm i -g @angular/cli@9.1.9 &&
-      echo n | npm i @angular/cli@9.1.9 &&
-      sleep 3 &&
       ng serve --host 0.0.0.0 --disableHostCheck
-# Github config
 github:
   prebuilds:
     master: true
@@ -31,8 +22,6 @@ github:
     addComment: true
     addBadge: false
     addLabel: false
-
-# Command to add your extensions
 vscode:
   extensions:
     - vscode-icons-team.vscode-icons@9.7.0:vWMZFN0zy+UAVL2V5iuz4A==
