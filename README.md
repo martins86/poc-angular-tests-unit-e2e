@@ -1,4 +1,4 @@
-# Poc Angular - Tests: ng test, ng e2e - [![Build Status][travis-img]][travis-url]
+# Poc Angular - Testes: ng test, ng e2e - [![Build Status][travis-img]][travis-url]
 
 <br>
 
@@ -21,10 +21,8 @@
 
 <br>
 
-# Comandos NPM
-
-# Install Packages
-All Packages in package.json :<br>
+# Instalando Pacotes NPM
+Instalando todos os pacotes de package.json :<br>
 `npm install`
 
 Angular Material / CDK - [Angular Material](https://material.angular.io/) :<br>
@@ -39,10 +37,36 @@ JavaScript Standard Style - Code Quality :<br>
 Husky - CI/CD :<br>
 `npm install husky@next --save-dev`
 
+<br>
+
+# Criando um novo componente
+Modulo com rotas - (alterar pages/home por pasta/nome do novo modulo) :<br>
+`ng generate module pages/home --routing`
+
+Componente - (alterar pages/home por folder/name do novo componente) :<br>
+`ng generate component pages/home`
 
 <br>
 
-# Versions
+# Subindo o servidor
+
+Execute o comando `ng serve -o` (Sobe o servidor e abre uma janela ou aba do navegador).
+
+<br>
+
+# Rodando os testes unitários
+
+Execute o comando `ng test` rodando com [Karma](https://karma-runner.github.io).
+
+<br>
+
+# Rodando os testes end-to-end
+
+Execute o comando `ng e2e` rodando com [Protractor](http://www.protractortest.org/).
+
+<br>
+
+# Versões
 
 <br>
 
@@ -50,7 +74,7 @@ Husky - CI/CD :<br>
 
 <br>
 
-# Dev Dependencies
+# Dependências em desenvolvimento
 
 | Package | NPMJS | Shields |
 | ------ | ------ | ------ |
