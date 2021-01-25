@@ -10,7 +10,9 @@
     "test-dev": "ng test --code-coverage --progress",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "pre-commit": "npm run lint && npm run test && npm run e2e"
+    "prettier-write": "npx prettier --write --ignore-unknown .",
+    "prettier-check": "npx prettier --check .",
+    "pre-commit": "npm run lint && npm run prettier-check && npm run test && npm run e2e"
   },
   "standard": {
     "env": [
@@ -64,8 +66,8 @@
     "karma-coverage-istanbul-reporter": "~3.0.2",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "prettier": "2.2.1",
     "protractor": "~7.0.0",
-    "standard": "^16.0.3",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"

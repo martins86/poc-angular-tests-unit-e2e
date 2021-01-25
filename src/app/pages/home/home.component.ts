@@ -3,13 +3,13 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
   title = 'Casos de Teste';
   points = 1;
 
-  plus1(): any  {
+  plus1(): any {
     this.points++;
   }
 

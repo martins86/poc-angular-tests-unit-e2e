@@ -5,18 +5,17 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () =>
-    import('./pages/home/home.module')
-      .then(module => module.HomeModule)
+      import('./pages/home/home.module').then((module) => module.HomeModule),
   },
   {
     path: '',
     redirectTo: '',
-    pathMatch: 'full'
-  }
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' })],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

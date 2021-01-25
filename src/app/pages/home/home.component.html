@@ -1,8 +1,22 @@
-<h1>{{title}}</h1>
-
-<div>
-  Pontos: <span>{{points}}</span>
+<div class="container">
+  <div class="d-flex justify-content-center bg-success text-light">
+    <div class="p-2">
+      <h1>{{ title }}</h1>
+    </div>
+  </div>
+  <div class="d-flex justify-content-start">
+    <div class="p-2">
+      <h2 class="font-weight-bold text-xl-left">
+        Pontos: <span class="font-weight-normal">{{ points }}</span>
+      </h2>
+    </div>
+  </div>
+  <div class="d-flex flex-row justify-content-end">
+    <div class="p-2 mr-2">
+      <button mat-raised-button color="primary" (click)="plus1()">+ 1</button>
+    </div>
+    <div class="p-2">
+      <button mat-raised-button color="warn" (click)="reset()">Reset</button>
+    </div>
+  </div>
 </div>
-
-<button (click)="plus1()">+ 1</button>
-<button (click)="reset()">Reset</button>
