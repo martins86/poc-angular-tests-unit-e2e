@@ -1,6 +1,7 @@
 {
   "name": "poc-angular-tests-unit-e2e",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "Aplicação em Angular com testes unitários (Jasmine/Karma) e end-to-end (Protractor), desenvolvido com Gitpod.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,14 +9,27 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "test-stage": "ng test --progress false --single-run=true --watch=false",
-    "e2e-stage": "ng e2e --progress false --watch=false"
+    "test:staged": "ng test --progress && ng e2e --progress"
   },
   "standard": {
     "env": [
       "test"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martins86/poc-angular-tests-unit-e2e.git"
+  },
+  "keywords": [],
+  "author": "Thiago Martins de Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martins86/poc-angular-tests-unit-e2e/issues"
+  },
+  "engines" : { 
+    "node" : "^12.18.3" 
+  },
+  "homepage": "https://github.com/martins86/poc-angular-tests-unit-e2e#readme",
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.1.1",
