@@ -39,6 +39,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: docs/poc-angular-tests-unit-e2e
+  local_dir: dist/poc-angular-tests-unit-e2e
   on:
     branch: master
