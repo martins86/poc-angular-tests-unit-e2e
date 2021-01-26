@@ -9,6 +9,7 @@ ports:
     onOpen: ignore
 tasks:
   - before: export NG_CLI_ANALYTICS=ci
+  - before: export CHROME_BIN=/usr/bin/google-chrome
     init: npm install
   - command: >
       npm i karma-spec-reporter &&
