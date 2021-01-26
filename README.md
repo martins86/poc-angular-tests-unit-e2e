@@ -14,7 +14,7 @@
 
 <br>
 
-> Aplicação em Angular com testes unitários (Jasmine/Karma) e end-to-end (Protractor), desenvolvido com Gitpod.
+> Aplicação em Angular com testes unitários (Jasmine/Karma) e end-to-end (Protractor) com CI (continuous integration).
 
 <br>
 
@@ -23,19 +23,21 @@
 Instalando todos os pacotes de package.json :<br>
 `npm install`
 
+Prettier - Code Quality - [Prettier](https://prettier.io/) :<br>
+Pacote: `npm install prettier --save-dev --save-exact` <br>
+Otimiza: `npx prettier --write --ignore-unknown .` <br>
+Checa/Valida: `npx prettier --check .` <br>
+
+Husky - CI - [Husky](https://typicode.github.io/husky/#/) :<br>
+Pacote: `npm install husky@next --save-dev` <br>
+Git Hooks: `husky install` <br>
+Pre Commit: `husky add .husky/pre-commit "npm run pre-commit"` <br>
+
 Angular Material / CDK - [Angular Material](https://material.angular.io/) :<br>
 `npm install @angular/material @angular/cdk --save`
 
 Bootstrap - [Get Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) :<br>
 `npm install bootstrap --save`
-
-Prettier - Code Quality - [Get Bootstrap](https://prettier.io/docs/en/install.html) :<br>
-`npm install prettier --save-dev --save-exact`
-
-Husky - CI/CD :<br>
-Pacote: `npm install husky@next --save-dev` <br>
-Git Hooks: `husky install` <br>
-Pre Commit: `husky add .husky/pre-commit "npm run pre-commit"` <br>
 
 <br>
 
@@ -77,13 +79,13 @@ Execute o comando `ng e2e` rodando com [Protractor](http://www.protractortest.or
 
 # Dependências em desenvolvimento
 
-| Package    | NPMJS                                            | Shields                                                                         |
-| ---------- | ------------------------------------------------ | ------------------------------------------------------------------------------- |
-| Jasmine    | https://jasmine.github.io/                       | ![GitHub package.json dependency version (dev dep on branch)][jasmine-core-img] |
-| Karma      | https://karma-runner.github.io/latest/index.html | ![GitHub package.json dependency version (dev dep on branch)][karma-img]        |
-| Protractor | https://www.protractortest.org/                  | ![GitHub package.json dependency version (dev dep on branch)][protractor-img]   |
-| Husky      | https://www.npmjs.com/package/husky              | ![GitHub package.json dependency version (dev dep on branch)][husky-img]        |
-| Prettier   | https://www.npmjs.com/package/prettier           | ![GitHub package.json dependency version (dev dep on branch)][prettier-img]     |
+| Package    | NPMJS                                      | Shields                                                                         |
+| ---------- | ------------------------------------------ | ------------------------------------------------------------------------------- |
+| Jasmine    | https://www.npmjs.com/package/jasmine-core | ![GitHub package.json dependency version (dev dep on branch)][jasmine-core-img] |
+| Karma      | https://www.npmjs.com/package/karmal       | ![GitHub package.json dependency version (dev dep on branch)][karma-img]        |
+| Protractor | https://www.npmjs.com/package/protractor   | ![GitHub package.json dependency version (dev dep on branch)][protractor-img]   |
+| Husky      | https://www.npmjs.com/package/husky        | ![GitHub package.json dependency version (dev dep on branch)][husky-img]        |
+| Prettier   | https://www.npmjs.com/package/prettier     | ![GitHub package.json dependency version (dev dep on branch)][prettier-img]     |
 
 <!-- Markdown link & images -->
 

@@ -1,6 +1,6 @@
 {
   "name": "poc-angular-tests-unit-e2e",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Aplicação em Angular com testes unitários (Jasmine/Karma) e end-to-end (Protractor), desenvolvido com Gitpod.",
   "scripts": {
     "ng": "ng",
