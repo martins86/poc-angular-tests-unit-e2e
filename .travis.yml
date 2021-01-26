@@ -7,7 +7,7 @@ node_js:
 
 branches:
   only:
-    - master # will only build for master branch commits
+    - master
 
 env:
   - EMBER_VERSION=dev
@@ -24,7 +24,7 @@ before_script:
   - npm install -g --silent @angular/cli
 
 script:
-  - ng build --prod --output-path docs --base-href /poc-angular-tests-unit-e2e/
+  - ng build --prod --output-path docs
 
 notifications:
   email:
