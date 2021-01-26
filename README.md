@@ -8,7 +8,7 @@
 
 ![GitHub package.json version][version-img]
 ![GitHub top language][language-img]
-[![JavaScript Style Guide][js-style-guide-img]][js-style-guide-url]
+[![code style: prettier][prettier-style-img]][prettier-style-url]
 [![GitHub license][license-img]][license-url]
 ![GitHub last commit][commit-img]
 
@@ -77,13 +77,13 @@ Execute o comando `ng e2e` rodando com [Protractor](http://www.protractortest.or
 
 # Dependências em desenvolvimento
 
-| Package                   | NPMJS                                            | Shields                                                                         |
-| ------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------- |
-| Jasmine                   | https://jasmine.github.io/                       | ![GitHub package.json dependency version (dev dep on branch)][jasmine-core-img] |
-| Karma                     | https://karma-runner.github.io/latest/index.html | ![GitHub package.json dependency version (dev dep on branch)][karma-img]        |
-| Protractor                | https://www.protractortest.org/                  | ![GitHub package.json dependency version (dev dep on branch)][protractor-img]   |
-| Husky                     | https://www.npmjs.com/package/husky              | ![GitHub package.json dependency version (dev dep on branch)][husky-img]        |
-| JavaScript Standard Style | https://www.npmjs.com/package/standard           | ![GitHub package.json dependency version (dev dep on branch)][standard-img]     |
+| Package    | NPMJS                                            | Shields                                                                         |
+| ---------- | ------------------------------------------------ | ------------------------------------------------------------------------------- |
+| Jasmine    | https://jasmine.github.io/                       | ![GitHub package.json dependency version (dev dep on branch)][jasmine-core-img] |
+| Karma      | https://karma-runner.github.io/latest/index.html | ![GitHub package.json dependency version (dev dep on branch)][karma-img]        |
+| Protractor | https://www.protractortest.org/                  | ![GitHub package.json dependency version (dev dep on branch)][protractor-img]   |
+| Husky      | https://www.npmjs.com/package/husky              | ![GitHub package.json dependency version (dev dep on branch)][husky-img]        |
+| Prettier   | https://www.npmjs.com/package/prettier           | ![GitHub package.json dependency version (dev dep on branch)][prettier-img]     |
 
 <!-- Markdown link & images -->
 
@@ -91,8 +91,8 @@ Execute o comando `ng e2e` rodando com [Protractor](http://www.protractortest.or
 [open-gitpod-url]: https://www.gitpod.io/#https://github.com/martins86/poc-angular-tests-unit-e2e
 [version-img]: https://img.shields.io/github/package-json/v/martins86/poc-angular-tests-unit-e2e
 [language-img]: https://img.shields.io/github/languages/top/martins86/poc-angular-tests-unit-e2e
-[js-style-guide-img]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
-[js-style-guide-url]: https://standardjs.com
+[prettier-style-img]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
+[prettier-style-url]: https://github.com/prettier/prettier
 [license-img]: https://img.shields.io/github/license/martins86/poc-angular-tests-unit-e2e
 [license-url]: https://github.com/martins86/poc-angular-tests-unit-e2e/blob/main/LICENSE
 [travis-img]: https://travis-ci.com/martins86/poc-angular-tests-unit-e2e.svg?branch=master
@@ -104,4 +104,4 @@ Execute o comando `ng e2e` rodando com [Protractor](http://www.protractortest.or
 [karma-img]: https://img.shields.io/github/package-json/dependency-version/martins86/poc-angular-tests-unit-e2e/dev/karma
 [protractor-img]: https://img.shields.io/github/package-json/dependency-version/martins86/poc-angular-tests-unit-e2e/dev/protractor
 [husky-img]: https://img.shields.io/github/package-json/dependency-version/martins86/poc-angular-tests-unit-e2e/dev/husky
-[standard-img]: https://img.shields.io/github/package-json/dependency-version/martins86/poc-angular-tests-unit-e2e/dev/standard
+[prettier-img]: https://img.shields.io/github/package-json/dependency-version/martins86/poc-angular-tests-unit-e2e/dev/prettier
