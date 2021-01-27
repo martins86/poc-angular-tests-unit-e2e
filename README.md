@@ -33,6 +33,10 @@ Pacote: `npm install husky@next --save-dev` <br>
 Git Hooks: `husky install` <br>
 Pre Commit: `husky add .husky/pre-commit "npm run pre-commit"` <br>
 
+Lint Staged - CI - [lint-staged](https://github.com/okonet/lint-staged#readme) :<br>
+Pacote: `npm install lint-staged --save-dev` <br>
+Config: `npx mrm lint-staged` <br>
+
 Angular Material / CDK - [Angular Material](https://material.angular.io/) :<br>
 `npm install @angular/material @angular/cdk --save`
 
@@ -85,6 +89,7 @@ Execute o comando `ng e2e` rodando com [Protractor](http://www.protractortest.or
 | Karma      | https://www.npmjs.com/package/karmal       | ![GitHub package.json dependency version (dev dep on branch)][karma-img]        |
 | Protractor | https://www.npmjs.com/package/protractor   | ![GitHub package.json dependency version (dev dep on branch)][protractor-img]   |
 | Husky      | https://www.npmjs.com/package/husky        | ![GitHub package.json dependency version (dev dep on branch)][husky-img]        |
+| Lint Staged      | https://www.npmjs.com/package/lint-staged        | ![GitHub package.json dependency version (dev dep on branch)][lint-staged-img]        |
 | Prettier   | https://www.npmjs.com/package/prettier     | ![GitHub package.json dependency version (dev dep on branch)][prettier-img]     |
 
 <!-- Markdown link & images -->
@@ -106,4 +111,5 @@ Execute o comando `ng e2e` rodando com [Protractor](http://www.protractortest.or
 [karma-img]: https://img.shields.io/github/package-json/dependency-version/martins86/poc-angular-tests-unit-e2e/dev/karma
 [protractor-img]: https://img.shields.io/github/package-json/dependency-version/martins86/poc-angular-tests-unit-e2e/dev/protractor
 [husky-img]: https://img.shields.io/github/package-json/dependency-version/martins86/poc-angular-tests-unit-e2e/dev/husky
+[lint-staged-img]: https://img.shields.io/github/package-json/dependency-version/martins86/poc-angular-tests-unit-e2e/dev/lint-staged
 [prettier-img]: https://img.shields.io/github/package-json/dependency-version/martins86/poc-angular-tests-unit-e2e/dev/prettier
