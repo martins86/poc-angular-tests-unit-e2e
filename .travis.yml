@@ -1,9 +1,14 @@
 dist: trusty
+sudo: false
 
 language: node_js
 
 node_js:
   - "12.18.3"
+
+cache:
+  directories:
+    - ./node_modules
 
 branches:
   only:
@@ -17,14 +22,13 @@ jobs:
   allow_failures:
     - env: EMBER_VERSION=dev
 
-cache:
-  npm: false
-
-before_script:
-  - npm install -g --silent @angular/cli
+install:
+  - npm install
 
 script:
-  - ng build --prod --output-path docs
+  - ng build --prod
+  - cd dist/poc-angular-tests-unit-e2e
+  - cp index.html 404.html
 
 notifications:
   email:
