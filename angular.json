@@ -57,7 +57,8 @@
                   "maximumWarning": "6kb",
                   "maximumError": "10kb"
                 }
-              ]
+              ],
+              "baseHref": "https://martins86.github.io/poc-angular-tests-unit-e2e/"
             }
           }
         },
