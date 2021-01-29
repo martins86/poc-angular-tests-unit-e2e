@@ -14,7 +14,8 @@
 
 <br>
 
-> Aplicação em Angular com testes unitários (Jasmine/Karma) e end-to-end (Protractor) com CI (continuous integration).
+> Aplicação em Angular com testes unitários (Jasmine/Karma) e end-to-end (Protractor) com CI/CD (Travis, GH-Pages).<br>
+> [GH-Pages Aplicação](https://martins86.github.io/poc-angular-tests-unit-e2e/home)
 
 <br>
 
